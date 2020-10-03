@@ -19,7 +19,6 @@ public class StageMenuScript : MonoBehaviour
     }
     public void BackToMainMenuButtonClick(Button button)
     {
-         SceneManager.UnloadSceneAsync("SceneStage1");
          SceneManager.LoadScene("SceneMainMenu");
          }
 }
